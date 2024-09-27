@@ -1,0 +1,71 @@
+body {
+    background: linear-gradient(to bottom right, #0b0c0f, #2c3e50); /* Dark gradient background */
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: #2c3e50; /* Darker navbar */
+}
+
+.navbar-brand, .nav-link {
+    color: #ecf0f1; /* Lighter text color for navbar */
+}
+
+h1, h2 {
+    color: #ecf0f1; /* Lighter heading color */
+}
+
+.law-list {
+    margin-top: 20px;
+}
+
+.list-group-item {
+    background-color: rgba(255, 255, 255, 0.1); /* Darker item background */
+    border: none;
+}
+
+.list-group-item:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Slightly lighter on hover */
+}
+
+/* Styles for the punishment button */
+.btn-warning {
+    display: block;
+    width: 100%; /* Make the button full width */
+    padding: 15px; /* Increase padding for a larger button */
+    font-size: 1.5rem; /* Make the font larger */
+    text-align: center;
+    border-radius: 10px; /* Round the corners */
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Dark remix gradient color */
+    color: white;
+    transition: transform 1s, background 1s; /* Transition effects */
+}
+
+.btn-warning:hover {
+    background: linear-gradient(to right, #2575fc, #6a11cb); /* Change gradient on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.contact-button {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    text-align: center;
+    transition: background 1s; /* Updated transition time */
+    background: linear-gradient(to right, #4e9cff, #142aa8);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-button:hover {
+    background: linear-gradient(to right, #0c0e86, #18d1f1);
+    transform: scale(1.05);
+    transition: background 1s, transform 1s; /* Updated transition time */
+}
+
+.yt-channel {
+    margin-top: 10px;
+    text-align: center;
+}
